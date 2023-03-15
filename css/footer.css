@@ -1,0 +1,183 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,500,300,700);
+
+.footer-section {
+    width: 100%;
+    display: inline-block;
+    text-align: center;
+    font-size: 22px;
+    font-weight: 700;
+    font-family: Roboto;
+    margin: 0 !important;
+    position: relative;
+    bottom: -24px !important;
+    text-transform: uppercase;
+    height: 20%;
+}
+
+.footer-distributed {
+    background: rgb(255, 246, 246);
+    /*background: -webkit-linear-gradient(bottom, #278b34, #297922);
+    background: -moz-linear-gradient(bottom, #278b34, #297922);
+    background: linear-gradient(to top, #278b34, #297922);*/
+    box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
+    box-sizing: border-box;
+    width: 100%;
+    text-align: left;
+    font: normal 16px sans-serif;
+    padding: 20px 50px 20px 50px;
+}
+
+.footer-distributed .footer-left span {
+    color: #0c59a1;
+    font-size: 14px;
+    margin: 0;
+}
+
+.footer-center {
+    position: relative;
+    text-align: center;
+    /*top: 35px;*/
+}
+
+.footer-logo-jiit {
+    margin: 0 8px 0 8px;
+    text-align: center;
+    height: 60px !important;
+    width: 60px !important;
+}
+
+.footer-logo-dsc{
+    margin: 0 8px 0 8px;
+    text-align: center;
+    height: 60px !important;
+    width: 220px !important;
+}
+
+.footer-logo-graficas{
+    margin: 0 8px 0 8px;
+    text-align: center;
+    height: 60px !important;
+    width: 220px !important;
+}
+
+.footer-logo-cice{
+    margin: 0 8px 0 8px;
+    text-align: center;
+    height: 80px !important;
+    width: 80px !important;
+}
+
+.footer-logo-gd{
+    margin: 0 8px 0 8px;
+    text-align: center;
+    height: 60px !important;
+    width: 60px !important;
+}
+
+
+/* Footer links */
+
+.footer-distributed span.footer-links {
+    font-size: 18px;
+    font-weight: bold;
+    color: #0c59a1;
+    margin: 0 0 10px;
+    padding: 0;
+    transition: ease .25s;
+}
+
+.footer-distributed span.footer-links a {
+    display: inline-block;
+    line-height: 1.8;
+    text-decoration: none;
+    color: inherit;
+    transition: ease .25s;
+}
+
+.footer-distributed .footer-links a:before {
+    content: "·";
+    font-size: 20px;
+    left: 0;
+    color: #0c59a1;
+    display: inline-block;
+    padding-right: 5px;
+}
+
+.footer-distributed .footer-links .link-1:before {
+    content: none;
+}
+
+.footer-distributed .footer-right {
+    float: right;
+    height: 35px;
+    max-width: 220px;
+    z-index: 10000 !important;
+}
+
+.footer-distributed .footer-left {
+    height: 35px;
+}
+
+.footer-distributed .footer-right a {
+    display: inline-block;
+    width: 35px;
+    background-color: rgb(255, 246, 246);
+    border-radius: 2px;
+    font-size: 20px;
+    color: #0c59a1;
+    text-align: center;
+    line-height: 35px;
+    margin-left: 3px;
+    transition: all .25s;
+}
+
+.footer-distributed .footer-right a:hover {
+    transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+}
+
+/* Media Queries */
+@media screen and (min-width: 577px) {
+    .footer-distributed .footer-left {    
+        display: flex;
+        align-items: center;
+    }
+}
+
+@media (max-width: 576px) {
+    .footer-distributed .footer-left,
+    .footer-distributed .footer-right {
+        text-align: center !important;
+    }
+    .footer-distributed .footer-right {
+        float: none;
+        margin: 0 auto 20px;
+    }
+    .footer-distributed .footer-left span.footer-links {
+        line-height: 1.8;
+    }
+    .footer-distributed {
+        padding: 20px 50px 7px 50px;
+    }
+    .footer-center {
+        text-align: center;
+        position: relative;
+        top: -16px;
+    }
+
+    .footer-logo-jiit {
+        margin-left: 6px;
+        margin-right: 0px;
+        text-align: center;
+        height: 40px !important;
+        width: 40px !important;
+    }
+
+    .footer-logo-dsc{
+        margin-right: 6px;
+        margin-left: 0px;
+        text-align: center;
+        height: 40px !important;
+        width: 147px !important;
+    }
+}

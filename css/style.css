@@ -1,0 +1,83 @@
+@charset "utf-8";
+
+/* General Styles */
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: rgb(255, 246, 246);
+  overflow-x: none;
+}
+
+/******** Section Heading */
+
+.section_heading {
+  color: #0c59a1;
+  text-align: center;
+  margin-bottom: 40px !important;
+  letter-spacing: 1px;
+  word-spacing: 5px;
+  font-variant: small-caps;
+  font-weight: bolder;
+}
+
+.section_heading:hover {
+  cursor: progress;
+}
+
+.section_heading span {
+  padding: 10px;
+  border-bottom: 3.5px solid #9a1b1b;
+}
+
+/******** Website Scrollbar CSS */
+/* width */
+::-webkit-scrollbar {
+  width: 5px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: rgb(255, 255, 255);
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #0c59a1;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #127de0;
+}
+.ergodetails {
+  /* background-color: black; */
+  /* height: 450px; */
+}
+#ergoCTFsvg {
+  margin-top: 80px;
+  height: 120px;
+}
+#ergotitle {
+  /* margin-top: 10px; */
+}
+#side_event {
+}
+
+.item {
+  text-align: center;
+}
+
+@media screen and (max-width: 576px) {
+  .section_heading span {
+    padding: 0px;
+    border-bottom: 3.5px solid #9a1b1b;
+  }
+}

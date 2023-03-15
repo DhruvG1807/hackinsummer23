@@ -1,0 +1,90 @@
+.track-card {
+    background-color: rgb(255, 246, 246);
+    padding: 16px;
+    border-color: #000000;
+    width: 300px !important;
+    height: 500px !important;
+    text-align: center;
+    border-radius: 12px;
+    margin-right: 24px;
+    margin-left: 24px;
+}
+
+.track-card:hover {
+    background-color:  rgb(255, 255, 255);
+    box-shadow: 1px 1px 8px 1px #000000;
+}
+
+.track-image {
+    height: 100px;
+    width: 100px;
+}
+
+.track-title {
+    color: #000000;
+    margin-top: 16px;
+    font-family: 'Lato', sans-serif;
+    font-weight: bold;
+    font-size: 24px;
+}
+
+.track-desc {
+    color: #000000;
+    margin-top: 12px;
+    font-family: 'Lato', sans-serif;
+}
+
+.tracks-row {
+    margin-top: 60px !important;
+}
+
+@media (max-width: 576px) {
+    .track-card {
+        border-color: #000000;
+        width: 240px !important;
+        height: 700px !important;
+        text-align: center;
+        border-radius: 12px;
+        margin-top: 24px;
+        margin-right: 0px !important;
+        margin-left: 24px !important;
+    }
+    
+    .track-card:hover {
+        box-shadow: 1px 1px 8px 1px;
+        background-color: #ffffff;
+    }
+    
+    .track-image {
+        height: 100px;
+        width: 100px;
+    }
+    
+    .track-title {
+        color: #000000;
+        margin-top: 16px;
+        font-family: 'Lato', sans-serif;
+        font-weight: bold;
+        font-size: 24px;
+    }
+    
+    .track-desc {
+        color: #000000;
+        margin-top: 12px;
+        font-family: 'Lato', sans-serif;
+    }
+    
+    .tracks-row {
+        display: block;
+        width: 300px !important;
+        text-align: center !important;
+        margin-top: 0px;
+        overflow-x: none;
+    }
+
+    .tracks-section {
+        width: 340px;
+        text-align: center;
+        overflow-x: none;
+    }
+}
